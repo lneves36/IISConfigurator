@@ -1,0 +1,19 @@
+﻿10) API Setup
+
+To set up the Legacy Batch / REST API in your development environment please follow these steps to configure IIS:
+
+* Create a new Application Pool called “api”.
+
+o .NET CLR Version should be “v4.0”
+
+o Enable 32-Bit Applications should be “True”
+
+o Managed Pipeline Mode should be “Integrated”
+
+o Maximum Worker Processes should be “1”
+
+* Create a new sub-application under Legacy called “api”
+
+o Physical Path: - [branch]\iSAMS.Api.Legacy\iSAMS.RestService
+
+o Application Pool: api
