@@ -1,7 +1,0 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/iSamsIISConfigurator/obj/Debug
-/iSamsIISConfigurator/bin/Debug
-/iSams.IISTools/obj/Debug
